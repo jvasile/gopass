@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gopasspw/gopass/tests/agecan"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/tests/agecan"
 )
 
 func TestAgeAgent(t *testing.T) {

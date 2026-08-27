@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/appdir"
-	"github.com/gopasspw/gopass/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/appdir"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 const maxIconAssetSize int64 = 32 << 20

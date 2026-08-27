@@ -10,11 +10,11 @@ import (
 	"strings"
 
 	"github.com/caspr-io/yamlpath"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/gopass"
-	"github.com/gopasspw/gopass/pkg/set"
 	"go.yaml.in/yaml/v3"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // make sure that YAML implements Secret.

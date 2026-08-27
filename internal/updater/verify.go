@@ -10,8 +10,8 @@ import (
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/gopasspw/gopass/internal/hashsum"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/hashsum"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // To update see README.md.

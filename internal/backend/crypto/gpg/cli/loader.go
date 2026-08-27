@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg/gpgconf"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg/gpgconf"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 const (

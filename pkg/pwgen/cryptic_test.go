@@ -5,10 +5,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/pwgen/pwrules"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/pwgen/pwrules"
 )
 
 func TestCrypticForDomain(t *testing.T) {

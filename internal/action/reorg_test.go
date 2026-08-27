@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/gopass/secrets"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestReorg(t *testing.T) {

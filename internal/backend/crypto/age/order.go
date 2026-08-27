@@ -7,12 +7,12 @@ import (
 	"strings"
 
 	"filippo.io/age"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // orderedIdentities returns the given identities in a stable and
-// user-controllable order (see https://github.com/gopasspw/gopass/issues/3393).
+// user-controllable order (see https://jamesvasile.com/go/gopass/v2/issues/3393).
 //
 // Go map iteration is randomized, so without this the identity age tries
 // first for decryption would be picked at random, leading to unpredictable

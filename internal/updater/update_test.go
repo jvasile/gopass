@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 //nolint:wrapcheck

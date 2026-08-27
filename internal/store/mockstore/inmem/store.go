@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/pkg/set"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // InMem is a thread-safe in-memory store.

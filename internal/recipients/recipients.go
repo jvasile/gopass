@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/gopasspw/gopass/pkg/set"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // Recipients is a list of Key IDs. It will try to retain the file as much as possible while manipulating the recipients.

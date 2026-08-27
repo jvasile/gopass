@@ -7,12 +7,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/internal/store/leaf"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/internal/store/leaf"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Copy will copy one entry to another location. Multi-store copies are

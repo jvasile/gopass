@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/cache"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/cache"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Store stores timestamps on disk.

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/helpers/gitutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/helpers/gitutils"
 )
 
 func chdir(t *testing.T, dir string) {

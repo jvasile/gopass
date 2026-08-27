@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/helpers/gitutils"
 	"github.com/stretchr/testify/assert"
+	"jamesvasile.com/go/gopass/v2/helpers/gitutils"
 )
 
 // Test mustCheckEnv function

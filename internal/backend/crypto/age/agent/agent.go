@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"filippo.io/age"
-	"github.com/gopasspw/gopass/pkg/appdir"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/appdir"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 const (

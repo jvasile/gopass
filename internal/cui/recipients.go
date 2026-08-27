@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/termio"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 var (

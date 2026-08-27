@@ -11,11 +11,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/internal/store/leaf"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/internal/store/leaf"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Store is the public facing password store. It contains one or more

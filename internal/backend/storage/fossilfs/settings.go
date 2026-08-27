@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 func (f *Fossil) fixConfig(ctx context.Context) error {

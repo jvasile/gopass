@@ -4,14 +4,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/tree"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/gopass/secrets"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/tree"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestMoveShadow(t *testing.T) {
@@ -490,7 +490,7 @@ func TestMoveInMountedStore(t *testing.T) {
 }
 
 // TestCrossStoreMoveReencrypts is a regression test for
-// https://github.com/gopasspw/gopass/issues/3359.
+// https://jamesvasile.com/go/gopass/v2/issues/3359.
 // Moving a secret from one store to another must decrypt it and re-encrypt
 // it for the destination store's recipients, not merely copy the raw
 // ciphertext file.
@@ -527,7 +527,7 @@ func TestCrossStoreMoveReencrypts(t *testing.T) {
 }
 
 // TestCrossStoreCopyReencrypts is a regression test for
-// https://github.com/gopasspw/gopass/issues/3359.
+// https://jamesvasile.com/go/gopass/v2/issues/3359.
 // Copying a secret from one store to another must also go through Get+Set
 // to re-encrypt for the destination store's recipients.
 func TestCrossStoreCopyReencrypts(t *testing.T) {
@@ -564,7 +564,7 @@ func TestCrossStoreCopyReencrypts(t *testing.T) {
 }
 
 // TestCrossStoreMoveDirectory is a regression test for
-// https://github.com/gopasspw/gopass/issues/3359.
+// https://jamesvasile.com/go/gopass/v2/issues/3359.
 // All secrets in a directory moved across stores must be re-encrypted.
 func TestCrossStoreMoveDirectory(t *testing.T) {
 	u := gptest.NewUnitTester(t)

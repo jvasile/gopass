@@ -7,16 +7,16 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/backend/crypto/age"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/diff"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/queue"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/gopass"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/diff"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/queue"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass"
 )
 
 // ErrorSeverity provides a way for a function to specify how severe of an error it experienced.

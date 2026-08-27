@@ -14,14 +14,14 @@ import (
 	"fmt"
 
 	// load crypto backends.
-	_ "github.com/gopasspw/gopass/internal/backend/crypto"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/crypto"
 	// load storage backends.
-	_ "github.com/gopasspw/gopass/internal/backend/storage"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/queue"
-	"github.com/gopasspw/gopass/internal/store/root"
-	"github.com/gopasspw/gopass/internal/tree"
-	"github.com/gopasspw/gopass/pkg/gopass"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/queue"
+	"jamesvasile.com/go/gopass/v2/internal/store/root"
+	"jamesvasile.com/go/gopass/v2/internal/tree"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass"
 )
 
 // Gopass is a secret store implementation. It is the main entry point for the gopass API.

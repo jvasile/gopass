@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/clipboard"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/clipboard"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 // Unclip tries to erase the content of the clipboard.

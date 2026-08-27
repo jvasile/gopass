@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 func init() {

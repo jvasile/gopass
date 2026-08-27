@@ -6,9 +6,9 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/gopasspw/gopass/pkg/passkey"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/pkg/passkey"
 )
 
 var flags passkey.CredentialFlags = passkey.CredentialFlags{

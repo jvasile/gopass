@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"filippo.io/age"
-	"github.com/gopasspw/gopass/pkg/termio"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 func TestAgent(t *testing.T) {

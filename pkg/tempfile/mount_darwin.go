@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 var shmDir = ""

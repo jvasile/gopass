@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/gopasspw/gopass/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 // Notify displays a desktop notification through msg

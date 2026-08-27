@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gopasspw/gopass/pkg/fsutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 func TestBaseConfig(t *testing.T) {

@@ -10,16 +10,16 @@ import (
 
 	"github.com/blang/semver/v4"
 	"github.com/fatih/color"
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/internal/store/root"
-	"github.com/gopasspw/gopass/internal/tree"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/set"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/internal/store/root"
+	"jamesvasile.com/go/gopass/v2/internal/tree"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // MountRemove removes an existing mount.

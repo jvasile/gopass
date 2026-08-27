@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/updater"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/protect"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/updater"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/protect"
 )
 
 // Version prints the gopass version.

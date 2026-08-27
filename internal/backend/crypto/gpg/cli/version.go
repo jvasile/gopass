@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg/gpgconf"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg/gpgconf"
 )
 
 // Version will return GPG version information.

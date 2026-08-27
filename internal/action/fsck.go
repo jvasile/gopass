@@ -5,16 +5,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/config/legacy"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/store/leaf"
-	"github.com/gopasspw/gopass/internal/tree"
-	"github.com/gopasspw/gopass/pkg/appdir"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/fsutil"
-	"github.com/gopasspw/gopass/pkg/termio"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/config/legacy"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/store/leaf"
+	"jamesvasile.com/go/gopass/v2/internal/tree"
+	"jamesvasile.com/go/gopass/v2/pkg/appdir"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 // Fsck checks the store integrity.

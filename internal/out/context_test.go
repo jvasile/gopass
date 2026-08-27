@@ -3,8 +3,8 @@ package out
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/assert"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 func TestPrefix(t *testing.T) {

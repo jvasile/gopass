@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/gopasspw/clipboard"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
 	"github.com/mitchellh/go-ps"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
 )
 
 func TestNotExistingClipboardCopyCommand(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"context"
 	"os/exec"
 
-	"github.com/gopasspw/gopass/internal/backend/crypto/age"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age"
 )
 
 // execCommand is indirection over os/exec.Command so tests can substitute a

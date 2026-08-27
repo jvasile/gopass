@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/set"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 var (
@@ -282,7 +282,7 @@ func ParseAKV(in []byte) *AKV {
 		}
 
 		key = strings.TrimSpace(key)
-		// val is not Trimmed. See https://github.com/gopasspw/gopass/issues/2873
+		// val is not Trimmed. See https://jamesvasile.com/go/gopass/v2/issues/2873
 		// we only store lower case keys for KV
 		a.kvp[key] = append(a.kvp[key], val)
 	}

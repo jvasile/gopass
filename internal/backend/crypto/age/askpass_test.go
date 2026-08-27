@@ -6,11 +6,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/zalando/go-keyring"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
 )
 
 func TestNewAskPass_KeychainDisabled(t *testing.T) {

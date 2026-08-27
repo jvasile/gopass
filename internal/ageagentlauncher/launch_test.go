@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend/crypto/age"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age"
 )
 
 // TestLaunchStampsSpawnGuard proves launch() stamps age.SpawnGuardEnv on the

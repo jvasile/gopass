@@ -6,10 +6,10 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 // Git passes the git command to the underlying backend.

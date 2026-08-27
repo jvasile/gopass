@@ -6,17 +6,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/pwschemes/argon2i"
-	"github.com/gopasspw/gopass/internal/pwschemes/argon2id"
-	"github.com/gopasspw/gopass/pkg/gopass"
-	"github.com/gopasspw/gopass/pkg/gopass/secrets/secparse"
 	"github.com/jsimonetti/pwscheme/md5crypt"
 	"github.com/jsimonetti/pwscheme/ssha"
 	"github.com/jsimonetti/pwscheme/ssha256"
 	"github.com/jsimonetti/pwscheme/ssha512"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/pwschemes/argon2i"
+	"jamesvasile.com/go/gopass/v2/internal/pwschemes/argon2id"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets/secparse"
 )
 
 func Example() { //nolint:testableexamples

@@ -1,6 +1,6 @@
 package config
 
-import "github.com/gopasspw/gitconfig"
+import "jamesvasile.com/go/gopass/v2/internal/third_party/gitconfig"
 
 func init() {
 	// Disable unescaping of values. This is not strictly conformant with the

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 const (

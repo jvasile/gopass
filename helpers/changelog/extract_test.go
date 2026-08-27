@@ -34,8 +34,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * fix: Fix version check against latest release (#3292)
 
-[Unreleased]: https://github.com/gopasspw/gopass/compare/v1.17.0...HEAD
-[1.17.0]: https://github.com/gopasspw/gopass/compare/v1.16.1...v1.17.0
+[Unreleased]: https://jamesvasile.com/go/gopass/v2/compare/v1.17.0...HEAD
+[1.17.0]: https://jamesvasile.com/go/gopass/v2/compare/v1.16.1...v1.17.0
 `
 
 // TestExtractSkipsUnreleased covers the reason this tool needed changing: the

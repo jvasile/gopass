@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/helpers/commitmsg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/helpers/commitmsg"
 )
 
 const migratedFixture = `# Changelog
@@ -38,9 +38,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * [BUGFIX] reorg: List all secrets (#3245)
 
-[Unreleased]: https://github.com/gopasspw/gopass/compare/v1.16.1...HEAD
-[1.16.1]: https://github.com/gopasspw/gopass/compare/v1.16.0...v1.16.1
-[1.16.0]: https://github.com/gopasspw/gopass/compare/v1.15.18...v1.16.0
+[Unreleased]: https://jamesvasile.com/go/gopass/v2/compare/v1.16.1...HEAD
+[1.16.1]: https://jamesvasile.com/go/gopass/v2/compare/v1.16.0...v1.16.1
+[1.16.0]: https://jamesvasile.com/go/gopass/v2/compare/v1.15.18...v1.16.0
 `
 
 func TestParseChangelog(t *testing.T) {
@@ -65,7 +65,7 @@ func TestParseChangelog(t *testing.T) {
 	assert.NotContains(t, released, "[Unreleased]:")
 
 	require.Len(t, cl.links, 3)
-	assert.Equal(t, "[Unreleased]: https://github.com/gopasspw/gopass/compare/v1.16.1...HEAD", cl.links[0])
+	assert.Equal(t, "[Unreleased]: https://jamesvasile.com/go/gopass/v2/compare/v1.16.1...HEAD", cl.links[0])
 }
 
 // TestReleaseConsumesUnreleased is the regression this change exists for.
@@ -190,11 +190,11 @@ func TestReleaseUpdatesLinks(t *testing.T) {
 
 	got := buf.String()
 
-	assert.Contains(t, got, "[Unreleased]: https://github.com/gopasspw/gopass/compare/v1.17.0...HEAD")
-	assert.Contains(t, got, "[1.17.0]: https://github.com/gopasspw/gopass/compare/v1.16.1...v1.17.0")
+	assert.Contains(t, got, "[Unreleased]: https://jamesvasile.com/go/gopass/v2/compare/v1.17.0...HEAD")
+	assert.Contains(t, got, "[1.17.0]: https://jamesvasile.com/go/gopass/v2/compare/v1.16.1...v1.17.0")
 	// Existing references are preserved.
-	assert.Contains(t, got, "[1.16.1]: https://github.com/gopasspw/gopass/compare/v1.16.0...v1.16.1")
-	assert.Contains(t, got, "[1.16.0]: https://github.com/gopasspw/gopass/compare/v1.15.18...v1.16.0")
+	assert.Contains(t, got, "[1.16.1]: https://jamesvasile.com/go/gopass/v2/compare/v1.16.0...v1.16.1")
+	assert.Contains(t, got, "[1.16.0]: https://jamesvasile.com/go/gopass/v2/compare/v1.15.18...v1.16.0")
 	// The stale Unreleased reference is replaced, not duplicated.
 	assert.Equal(t, 1, strings.Count(got, "[Unreleased]: "))
 }

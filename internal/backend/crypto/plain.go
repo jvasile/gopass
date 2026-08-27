@@ -1,3 +1,3 @@
 package crypto
 
-import _ "github.com/gopasspw/gopass/internal/backend/crypto/plain" // register plaintext backend
+import _ "jamesvasile.com/go/gopass/v2/internal/backend/crypto/plain" // register plaintext backend

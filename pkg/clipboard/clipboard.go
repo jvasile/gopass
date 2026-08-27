@@ -9,14 +9,14 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/gopasspw/clipboard"
-	"github.com/gopasspw/gopass/internal/notify"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/notify"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 var (
 	// Helpers can be overridden at compile time, e.g. go build \
-	// -ldflags=='-X github.com/gopasspw/gopass/pkg/clipboard.Helpers=termux-api'.
+	// -ldflags=='-X jamesvasile.com/go/gopass/v2/pkg/clipboard.Helpers=termux-api'.
 	Helpers = "xsel, xclip or wl-clipboard"
 	// ErrNotSupported is returned when the clipboard is not accessible.
 	ErrNotSupported = fmt.Errorf("WARNING: No clipboard available. "+

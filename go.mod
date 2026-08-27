@@ -1,4 +1,4 @@
-module github.com/gopasspw/gopass
+module jamesvasile.com/go/gopass/v2
 
 go 1.25.0
 
@@ -11,17 +11,17 @@ require (
 	github.com/dustin/go-humanize v1.0.1
 	github.com/ergochat/readline v0.1.3
 	github.com/fatih/color v1.19.0
+	github.com/gobwas/glob v0.2.3
 	github.com/godbus/dbus/v5 v5.2.2
 	github.com/gokyle/twofactor v1.0.1
 	github.com/google/go-cmp v0.7.0
 	github.com/google/go-github/v61 v61.0.0
 	github.com/gopasspw/clipboard v0.0.5-0.20260524141134-6b387ae5aa1a
-	github.com/gopasspw/gitconfig v0.0.4
-	github.com/gopasspw/gopass-hibp v1.16.1
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/jsimonetti/pwscheme v0.0.0-20220922140336-67a4d090f150
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/kbinani/screenshot v0.0.0-20250624051815-089614a94018
+	github.com/kjk/lzmadec v0.0.0-20210713164611-19ac3ee91a71
 	github.com/makiuchi-d/gozxing v0.1.1
 	github.com/martinhoefling/goxkcdpwgen v0.1.2-0.20231122080842-e51aa57005ca
 	github.com/mattn/go-colorable v0.1.15
@@ -66,13 +66,11 @@ require (
 	github.com/gdamore/tcell/v3 v3.4.0 // indirect
 	github.com/gen2brain/shm v0.1.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
-	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/jezek/xgb v1.1.1 // indirect
 	github.com/jwalton/gchalk v1.3.0 // indirect
 	github.com/jwalton/go-supportscolor v1.2.0 // indirect
-	github.com/kjk/lzmadec v0.0.0-20210713164611-19ac3ee91a71 // indirect
 	github.com/klauspost/compress v1.19.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.4.0 // indirect

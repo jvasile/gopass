@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"filippo.io/age"
-	"github.com/gopasspw/gopass/internal/backend/crypto/age/agent"
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age/agent"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 // useShortTempDir relocates TMPDIR to a short, writable directory before any

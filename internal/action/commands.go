@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/otp"
-	"github.com/gopasspw/gopass/pkg/set"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/otp"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // OptionalInt is a flag value that acts as a boolean when no value is given,
@@ -858,7 +858,7 @@ func (s *Action) GetCommands() []*cli.Command {
 						"\n\n" +
 						"Or with a custom alias: gopass mounts add secondary-store /path/to/existing/store" +
 						"\n\n" +
-						"Learn more: https://github.com/gopasspw/gopass/blob/master/docs/commands/mounts.md",
+						"Learn more: https://jamesvasile.com/go/gopass/v2/blob/master/docs/commands/mounts.md",
 					Before: s.IsInitialized,
 					Action: s.MountAdd,
 					Flags: []cli.Flag{

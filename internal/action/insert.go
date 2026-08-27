@@ -7,17 +7,17 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/audit"
-	"github.com/gopasspw/gopass/internal/editor"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/gopass"
-	"github.com/gopasspw/gopass/pkg/gopass/secrets"
-	"github.com/gopasspw/gopass/pkg/termio"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/audit"
+	"jamesvasile.com/go/gopass/v2/internal/editor"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 // Insert a string as content to a secret file.

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 var (

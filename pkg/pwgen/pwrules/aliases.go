@@ -5,9 +5,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/set"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // LookupAliases looks up known aliases for the given domain.

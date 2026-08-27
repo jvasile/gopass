@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"github.com/blang/semver/v4"
-	ap "github.com/gopasspw/gopass/internal/action"
-	"github.com/gopasspw/gopass/internal/action/pwgen"
-	_ "github.com/gopasspw/gopass/internal/backend/crypto"
-	_ "github.com/gopasspw/gopass/internal/backend/storage"
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/urfave/cli/v3"
+	ap "jamesvasile.com/go/gopass/v2/internal/action"
+	"jamesvasile.com/go/gopass/v2/internal/action/pwgen"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/crypto"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 var (
@@ -193,7 +193,7 @@ gopass - The standard Unix password manager
 {{- end}}
 
 .SH "REPORTING BUGS"
-Report bugs to <https://github.com/gopasspw/gopass/issues/new>
+Report bugs to <https://jamesvasile.com/go/gopass/v2/issues/new>
 .SH "COPYRIGHT"
 Copyright \(co 2021 Gopass Authors
 This program is free software; you may redistribute it under the terms of

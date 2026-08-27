@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gopasspw/gopass/pkg/set"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 // ignoredEnvs is a list of environment variables that are used by gopass

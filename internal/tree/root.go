@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 const (

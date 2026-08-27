@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Get retrieves the named content.

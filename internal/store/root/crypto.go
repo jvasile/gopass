@@ -3,8 +3,8 @@ package root
 import (
 	"context"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Crypto returns the crypto backend.

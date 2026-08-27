@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // SortListResult is the outcome of a SortList interaction.

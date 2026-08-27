@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gopasspw/gopass/internal/queue"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/queue"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Link creates a symlink.

@@ -245,7 +245,7 @@ Alternatively, download and install a suitable Windows build from the repository
 If you have [Go](https://golang.org/) already installed, you can use `go install` to automatically download the latest version:
 
 ```bash
-GO111MODULE=on go install -u github.com/gopasspw/gopass@latest
+GO111MODULE=on go install -u jamesvasile.com/go/gopass/v2@latest
 ```
 
 WARNING: `latest` is not a stable release. It is recommended to use a specific version.
@@ -263,7 +263,7 @@ gopass update
 or to upgrade with Go installed, run:
 
 ```bash
-go install github.com/gopasspw/gopass@latest
+go install jamesvasile.com/go/gopass/v2@latest
 ```
 
 ## Optional Post-Installation Steps

@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/tempfile"
 	shellquote "github.com/kballard/go-shellquote"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/tempfile"
 )
 
 var (

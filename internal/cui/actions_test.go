@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 func TestCreateActions(t *testing.T) {

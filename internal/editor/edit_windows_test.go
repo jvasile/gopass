@@ -5,11 +5,11 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestEditor(t *testing.T) {

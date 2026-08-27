@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/gopass/secrets"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestBinary(t *testing.T) {
@@ -212,7 +212,7 @@ func TestBinaryCopy(t *testing.T) {
 	})
 }
 
-// TestBinaryCopyNameAmbiguity covers https://github.com/gopasspw/gopass/issues/3340:
+// TestBinaryCopyNameAmbiguity covers https://jamesvasile.com/go/gopass/v2/issues/3340:
 // copying a file into the store must work even when the destination secret name
 // matches the basename of an existing file in the current directory, while the
 // genuine "both arguments are secrets" ambiguity is still rejected.

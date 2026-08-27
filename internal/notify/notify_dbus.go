@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/godbus/dbus/v5"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Notify displays a desktop notification with dbus.

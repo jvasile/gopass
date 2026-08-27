@@ -3,9 +3,9 @@ package age
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/store/mockstore/inmem"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/store/mockstore/inmem"
 )
 
 func TestLoader_New(t *testing.T) {

@@ -3,9 +3,9 @@ package pwgen
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func testCommand(t *testing.T, cmd *cli.Command) {

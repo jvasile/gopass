@@ -11,10 +11,10 @@ import (
 
 	"filippo.io/age"
 	"filippo.io/age/agessh"
-	"github.com/gopasspw/gopass/pkg/appdir"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/fsutil"
 	"golang.org/x/crypto/ssh"
+	"jamesvasile.com/go/gopass/v2/pkg/appdir"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 var (

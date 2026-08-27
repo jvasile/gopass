@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg"
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg/gpgconf"
-	"github.com/gopasspw/gopass/pkg/debug"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg/gpgconf"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 var (

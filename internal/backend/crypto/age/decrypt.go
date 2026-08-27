@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"filippo.io/age"
-	"github.com/gopasspw/gopass/internal/backend/crypto/age/agent"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age/agent"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Decrypt will attempt to decrypt the given payload.
@@ -132,6 +132,6 @@ func (a *Age) getAllIds(ctx context.Context) ([]age.Identity, error) {
 
 	// Go map iteration is randomized, so we need to establish a stable
 	// and user-controllable order before handing the identities to age
-	// (see https://github.com/gopasspw/gopass/issues/3393).
+	// (see https://jamesvasile.com/go/gopass/v2/issues/3393).
 	return orderedIdentities(ctx, ids), nil
 }

@@ -8,13 +8,13 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/pwgen"
-	"github.com/gopasspw/gopass/pkg/pwgen/xkcdgen"
 	"github.com/urfave/cli/v3"
 	"golang.org/x/term"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/pwgen"
+	"jamesvasile.com/go/gopass/v2/pkg/pwgen/xkcdgen"
 )
 
 // Pwgen handles the pwgen subcommand.

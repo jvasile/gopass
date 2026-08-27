@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/helpers/commitmsg"
+	"jamesvasile.com/go/gopass/v2/helpers/commitmsg"
 )
 
 // repoURL is the base for the compare links at the foot of CHANGELOG.md.

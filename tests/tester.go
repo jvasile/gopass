@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gopasspw/gopass/tests/agecan"
-	"github.com/gopasspw/gopass/tests/can"
-	"github.com/gopasspw/gopass/tests/gptest"
 	shellquote "github.com/kballard/go-shellquote"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/tests/agecan"
+	"jamesvasile.com/go/gopass/v2/tests/can"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 const (

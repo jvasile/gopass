@@ -7,19 +7,19 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/store"
-	"github.com/gopasspw/gopass/pkg/clipboard"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/otp"
-	"github.com/gopasspw/gopass/pkg/termio"
 	"github.com/mattn/go-tty"
 	"github.com/pquerna/otp/hotp"
 	"github.com/pquerna/otp/totp"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/store"
+	"jamesvasile.com/go/gopass/v2/pkg/clipboard"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/otp"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 // OTP implements OTP token handling for TOTP and HOTP.

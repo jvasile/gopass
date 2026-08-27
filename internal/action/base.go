@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/reminder"
-	"github.com/gopasspw/gopass/internal/store/root"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/reminder"
+	"jamesvasile.com/go/gopass/v2/internal/store/root"
 )
 
 // base holds the fields common to all handler types. Every handler embeds

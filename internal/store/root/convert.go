@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Convert will try to convert a given mount to a different set of

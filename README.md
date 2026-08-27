@@ -126,7 +126,7 @@ Please see [docs/setup.md](https://github.com/gopasspw/gopass/blob/master/docs/s
 ### From Source
 
 ```shell
-go install github.com/gopasspw/gopass@latest
+go install jamesvasile.com/go/gopass/v2@latest
 ```
 
 Note: `latest` is not a stable release. We recommend to only use released versions.
