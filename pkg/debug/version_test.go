@@ -33,6 +33,12 @@ func TestModuleVersion(t *testing.T) {
 			want:   semver.MustParse("4.0.0"),
 		},
 		{
+			name:   "valid module version vanity gopass",
+			module: "jamesvasile.com/go/gopass/v2",
+			modver: "v4.0.0",
+			want:   semver.MustParse("4.0.0"),
+		},
+		{
 			name:   "invalid module version",
 			module: "invalid/module",
 			modver: "",
