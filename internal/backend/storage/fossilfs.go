@@ -1,3 +1,3 @@
 package storage
 
-import _ "github.com/gopasspw/gopass/internal/backend/storage/fossilfs" // register fossilfs backend
+import _ "jamesvasile.com/go/gopass/v2/internal/backend/storage/fossilfs" // register fossilfs backend

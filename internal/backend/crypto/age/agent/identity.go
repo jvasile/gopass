@@ -7,7 +7,7 @@ import (
 
 	"filippo.io/age"
 	"filippo.io/age/plugin"
-	"github.com/gopasspw/gopass/internal/backend/crypto/age/identityfile"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age/identityfile"
 )
 
 // parseIdentity parses a single identity string, supporting AGE-PLUGIN-* prefixed plugin

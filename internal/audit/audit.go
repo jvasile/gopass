@@ -12,18 +12,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopasspw/gopass-hibp/pkg/hibp/api"
-	"github.com/gopasspw/gopass-hibp/pkg/hibp/dump"
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/hashsum"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/fsutil"
-	"github.com/gopasspw/gopass/pkg/gopass"
-	"github.com/gopasspw/gopass/pkg/termio"
 	"github.com/muesli/crunchy"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/hashsum"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/third_party/gopass-hibp/pkg/hibp/api"
+	"jamesvasile.com/go/gopass/v2/internal/third_party/gopass-hibp/pkg/hibp/dump"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 type secretGetter interface {
@@ -114,7 +114,7 @@ func (a *Auditor) Batch(ctx context.Context, secrets []string) (*Report, error) 
 	// runtime.NumCPU(), but sadly this causes various problems with multiple
 	// gnupg jobs running in parallel. See the entire discussion here:
 	//
-	// https://github.com/gopasspw/gopass/pull/245
+	// https://jamesvasile.com/go/gopass/v2/pull/245
 	//
 	maxJobs := a.s.Concurrency()
 	if maxVal := config.Int(ctx, "audit.concurrency"); maxVal > 0 {

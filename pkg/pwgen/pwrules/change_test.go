@@ -3,8 +3,8 @@ package pwrules
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/assert"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 func TestLookupChangeURL(t *testing.T) {

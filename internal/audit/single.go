@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gopasspw/gopass/internal/out"
 	"github.com/muesli/crunchy"
+	"jamesvasile.com/go/gopass/v2/internal/out"
 )
 
 // Single runs a password strength audit on a single password.

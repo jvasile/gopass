@@ -10,9 +10,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/gopasspw/gitconfig"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/internal/third_party/gitconfig"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"golang.org/x/term"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 // promptPass will prompt user's for a password by terminal.

@@ -5,15 +5,15 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg/gpgconf"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/fsutil"
-	"github.com/gopasspw/gopass/tests/can"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg/gpgconf"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
+	"jamesvasile.com/go/gopass/v2/tests/can"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestEncryptDecrypt(t *testing.T) {

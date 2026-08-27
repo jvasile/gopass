@@ -1,3 +1,3 @@
 package storage
 
-import _ "github.com/gopasspw/gopass/internal/backend/storage/gitfs" // register gitfs backend
+import _ "jamesvasile.com/go/gopass/v2/internal/backend/storage/gitfs" // register gitfs backend

@@ -5,9 +5,9 @@ package fossilfs
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend/storage/fs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend/storage/fs"
 )
 
 func TestFossil_Get(t *testing.T) {

@@ -8,15 +8,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/cache"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/pinentry/cli"
-	"github.com/gopasspw/gopass/pkg/termio"
 	"github.com/twpayne/go-pinentry/v4"
 	"github.com/zalando/go-keyring"
+	"jamesvasile.com/go/gopass/v2/internal/cache"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/pinentry/cli"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 type cacher interface {

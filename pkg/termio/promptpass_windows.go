@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"golang.org/x/crypto/ssh/terminal"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 // promptPass will prompt user's for a password by terminal.

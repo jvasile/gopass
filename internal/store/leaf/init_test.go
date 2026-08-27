@@ -3,8 +3,8 @@ package leaf
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 func TestInit(t *testing.T) {

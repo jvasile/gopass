@@ -9,10 +9,10 @@ import (
 
 	"filippo.io/age"
 	"filippo.io/age/agessh"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/ssh"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 func TestDedupe(t *testing.T) {

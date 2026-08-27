@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gopasspw/gitconfig"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/third_party/gitconfig"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 type strFn func(ctx context.Context, cmd *cli.Command) string

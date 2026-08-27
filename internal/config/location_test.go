@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gopasspw/gopass/pkg/appdir"
 	"github.com/stretchr/testify/assert"
+	"jamesvasile.com/go/gopass/v2/pkg/appdir"
 )
 
 func TestPwStoreDirNoEnv(t *testing.T) {

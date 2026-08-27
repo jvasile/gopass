@@ -3,7 +3,7 @@ package tree
 import (
 	"bytes"
 
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Node is a tree node.

@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"filippo.io/age/plugin"
-	"github.com/gopasspw/gopass/internal/cui"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/termio"
+	"jamesvasile.com/go/gopass/v2/internal/cui"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/termio"
 )
 
 var pluginTerminalUI = &plugin.ClientUI{

@@ -6,15 +6,15 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	_ "github.com/gopasspw/gopass/internal/backend/crypto"
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg"
-	_ "github.com/gopasspw/gopass/internal/backend/storage"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/gopass/secrets"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/crypto"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets"
 )
 
 func TestSet(t *testing.T) {

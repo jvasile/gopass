@@ -7,12 +7,12 @@ import (
 	"runtime"
 	"strings"
 
-	fishcomp "github.com/gopasspw/gopass/internal/completion/fish"
-	zshcomp "github.com/gopasspw/gopass/internal/completion/zsh"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/internal/tree"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/urfave/cli/v3"
+	fishcomp "jamesvasile.com/go/gopass/v2/internal/completion/fish"
+	zshcomp "jamesvasile.com/go/gopass/v2/internal/completion/zsh"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/internal/tree"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 var escapeRegExp = regexp.MustCompile(`('|"|\s|\(|\)|\<|\>|\&|\;|\#|\\|\||\*|\?)`)

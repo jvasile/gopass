@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	_ "github.com/gopasspw/gopass/internal/backend/crypto"
-	_ "github.com/gopasspw/gopass/internal/backend/storage"
-	"github.com/gopasspw/gopass/internal/config/legacy"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/crypto"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage"
+	"jamesvasile.com/go/gopass/v2/internal/config/legacy"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestNewConfig(t *testing.T) {

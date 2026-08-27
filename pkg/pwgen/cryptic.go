@@ -7,9 +7,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/pwgen/pwrules"
 	"github.com/muesli/crunchy"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/pwgen/pwrules"
 )
 
 // ErrCrypticInvalid is returned when a password is invalid.

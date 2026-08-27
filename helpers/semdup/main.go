@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gopasspw/gopass/helpers/semdup/analyzer"
+	"jamesvasile.com/go/gopass/v2/helpers/semdup/analyzer"
 )
 
 func main() {

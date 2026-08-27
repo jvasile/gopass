@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/helpers/semdup/analyzer"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/helpers/semdup/analyzer"
 )
 
 func TestRunJSON(t *testing.T) {

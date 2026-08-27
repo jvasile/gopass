@@ -3,9 +3,9 @@ package config
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestConfig(t *testing.T) {

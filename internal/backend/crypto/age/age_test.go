@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopasspw/gopass/pkg/debug"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 func TestNew(t *testing.T) {

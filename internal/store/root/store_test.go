@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"github.com/fatih/color"
-	"github.com/gopasspw/gopass/internal/backend"
-	_ "github.com/gopasspw/gopass/internal/backend/crypto"
-	_ "github.com/gopasspw/gopass/internal/backend/storage"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/tree"
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/crypto"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/tree"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestSimpleList(t *testing.T) {

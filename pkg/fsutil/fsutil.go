@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gopasspw/gopass/pkg/appdir"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/appdir"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 var reCleanFilename = regexp.MustCompile(`[^\w\d@.-]`)

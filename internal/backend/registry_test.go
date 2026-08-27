@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	_ "github.com/gopasspw/gopass/internal/backend/crypto"
-	"github.com/gopasspw/gopass/internal/backend/crypto/plain"
-	_ "github.com/gopasspw/gopass/internal/backend/storage"
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/crypto"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/plain"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 type fakeCryptoLoaderHighPrio struct{}

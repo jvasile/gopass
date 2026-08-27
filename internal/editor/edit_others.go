@@ -6,8 +6,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 // Path return the name/path of the preferred editor.

@@ -20,7 +20,7 @@ func ModuleVersion(m string) semver.Version {
 	}
 
 	// special case for gopass
-	if m == "github.com/gopasspw/gopass" || strings.HasPrefix(m, "github.com/gopasspw/gopass/") {
+	if m == "github.com/gopasspw/gopass" || strings.HasPrefix(m, "jamesvasile.com/go/gopass/v2/") {
 		sv, err := semver.Parse(strings.TrimPrefix(bi.Main.Version, "v"))
 		if err == nil {
 			return sv

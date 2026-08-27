@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/fatih/color"
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/config"
 )
 
 func TestTemplates(t *testing.T) {

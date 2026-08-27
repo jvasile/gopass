@@ -6,11 +6,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/out"
 	"github.com/kbinani/screenshot"
 	"github.com/makiuchi-d/gozxing"
 	"github.com/makiuchi-d/gozxing/qrcode"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/out"
 )
 
 // SnipFlags returns the CLI flags for the screen-capture (snip) feature.

@@ -3,8 +3,8 @@ package config
 import (
 	"fmt"
 
-	"github.com/gopasspw/gopass/internal/config/legacy"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/config/legacy"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 func migrateConfigs() error {

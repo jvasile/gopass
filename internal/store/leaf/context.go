@@ -3,7 +3,7 @@ package leaf
 import (
 	"context"
 
-	"github.com/gopasspw/gopass/internal/store"
+	"jamesvasile.com/go/gopass/v2/internal/store"
 )
 
 type contextKey int

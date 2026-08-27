@@ -9,15 +9,15 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/hashsum"
-	"github.com/gopasspw/gopass/internal/pwschemes/argon2i"
-	"github.com/gopasspw/gopass/internal/pwschemes/argon2id"
-	"github.com/gopasspw/gopass/internal/pwschemes/bcrypt"
-	"github.com/gopasspw/gopass/pkg/debug"
 	"github.com/jsimonetti/pwscheme/md5crypt"
 	"github.com/jsimonetti/pwscheme/ssha"
 	"github.com/jsimonetti/pwscheme/ssha256"
 	"github.com/jsimonetti/pwscheme/ssha512"
+	"jamesvasile.com/go/gopass/v2/internal/hashsum"
+	"jamesvasile.com/go/gopass/v2/internal/pwschemes/argon2i"
+	"jamesvasile.com/go/gopass/v2/internal/pwschemes/argon2id"
+	"jamesvasile.com/go/gopass/v2/internal/pwschemes/bcrypt"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // These constants defined the template function names used.

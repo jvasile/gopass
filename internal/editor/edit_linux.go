@@ -7,9 +7,9 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/pkg/debug"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // Path return the name/path of the preferred editor.

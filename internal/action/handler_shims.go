@@ -10,8 +10,8 @@ package action
 import (
 	"context"
 
-	"github.com/gopasspw/gopass/internal/backend"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
 )
 
 // ── secretHandler shims ────────────────────────────────────────────────────

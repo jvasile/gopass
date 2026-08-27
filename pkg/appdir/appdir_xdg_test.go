@@ -5,8 +5,8 @@ package appdir
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/tests/gptest"
 	"github.com/stretchr/testify/assert"
+	"jamesvasile.com/go/gopass/v2/tests/gptest"
 )
 
 func TestUserConfig(t *testing.T) {

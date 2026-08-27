@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopasspw/gopass/internal/hashsum"
-	"github.com/gopasspw/gopass/pkg/debug"
-	"github.com/gopasspw/gopass/pkg/set"
+	"jamesvasile.com/go/gopass/v2/internal/hashsum"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/set"
 )
 
 type Finding struct {

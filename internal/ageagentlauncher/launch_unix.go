@@ -7,7 +7,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/gopasspw/gopass/internal/backend/crypto/age"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age"
 )
 
 func launch(_ context.Context) error {

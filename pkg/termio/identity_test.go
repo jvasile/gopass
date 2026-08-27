@@ -3,11 +3,11 @@ package termio
 import (
 	"testing"
 
-	"github.com/gopasspw/gitconfig"
-	"github.com/gopasspw/gopass/internal/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/third_party/gitconfig"
 )
 
 func TestDetectName(t *testing.T) {

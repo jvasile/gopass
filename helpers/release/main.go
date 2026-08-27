@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/blang/semver/v4"
-	"github.com/gopasspw/gopass/helpers/commitmsg"
-	"github.com/gopasspw/gopass/helpers/gitutils"
+	"jamesvasile.com/go/gopass/v2/helpers/commitmsg"
+	"jamesvasile.com/go/gopass/v2/helpers/gitutils"
 )
 
 var (

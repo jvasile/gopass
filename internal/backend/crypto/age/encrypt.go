@@ -9,8 +9,8 @@ import (
 	"slices"
 
 	"filippo.io/age"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // ErrNoLocalIdentity is returned when none of the local identities is among
@@ -29,7 +29,7 @@ func (a *Age) Encrypt(ctx context.Context, plaintext []byte, recipients []string
 	}
 
 	// fetch the recipients of our own identities. These are NOT added to the
-	// recipients (see https://github.com/gopasspw/gopass/issues/3392), we only
+	// recipients (see https://jamesvasile.com/go/gopass/v2/issues/3392), we only
 	// use them to check that we will be able to decrypt the secret later.
 	idRecps, err := a.IdentityRecipients(ctx)
 	if err != nil {

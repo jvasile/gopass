@@ -3,9 +3,9 @@ package secparse
 import (
 	"testing"
 
-	"github.com/gopasspw/gopass/pkg/gopass/secrets"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/pkg/gopass/secrets"
 )
 
 func TestParse(t *testing.T) {

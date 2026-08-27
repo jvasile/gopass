@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gopasspw/gopass/internal/action/exit"
-	"github.com/gopasspw/gopass/internal/config"
-	"github.com/gopasspw/gopass/internal/create"
-	"github.com/gopasspw/gopass/internal/cui"
-	"github.com/gopasspw/gopass/internal/hook"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/clipboard"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/action/exit"
+	"jamesvasile.com/go/gopass/v2/internal/config"
+	"jamesvasile.com/go/gopass/v2/internal/create"
+	"jamesvasile.com/go/gopass/v2/internal/cui"
+	"jamesvasile.com/go/gopass/v2/internal/hook"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/clipboard"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 // Create displays the password creation wizard.

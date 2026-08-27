@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/pwgen/pwrules"
 	"github.com/urfave/cli/v3"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/pwgen/pwrules"
 )
 
 // AliasesPrint prints all configured aliases for password generation rules.

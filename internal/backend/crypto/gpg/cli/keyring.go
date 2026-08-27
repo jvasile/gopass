@@ -8,10 +8,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg"
-	"github.com/gopasspw/gopass/internal/backend/crypto/gpg/colons"
-	"github.com/gopasspw/gopass/internal/out"
-	"github.com/gopasspw/gopass/pkg/debug"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/gpg/colons"
+	"jamesvasile.com/go/gopass/v2/internal/out"
+	"jamesvasile.com/go/gopass/v2/pkg/debug"
 )
 
 // listKey lists all keys of the given type and matching the search strings.

@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/backend"
-	"github.com/gopasspw/gopass/internal/backend/crypto/age"
-	_ "github.com/gopasspw/gopass/internal/backend/storage/fs"
-	_ "github.com/gopasspw/gopass/internal/backend/storage/gitfs"
-	"github.com/gopasspw/gopass/pkg/ctxutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/backend"
+	"jamesvasile.com/go/gopass/v2/internal/backend/crypto/age"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage/fs"
+	_ "jamesvasile.com/go/gopass/v2/internal/backend/storage/gitfs"
+	"jamesvasile.com/go/gopass/v2/pkg/ctxutil"
 )
 
 var password = "hunter2"

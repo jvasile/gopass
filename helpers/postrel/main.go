@@ -26,10 +26,10 @@ import (
 
 	"github.com/blang/semver/v4"
 	"github.com/google/go-github/v61/github"
-	"github.com/gopasspw/gopass/helpers/gitutils"
-	"github.com/gopasspw/gopass/pkg/fsutil"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/oauth2"
+	"jamesvasile.com/go/gopass/v2/helpers/gitutils"
+	"jamesvasile.com/go/gopass/v2/pkg/fsutil"
 )
 
 var verTmpl = `package main

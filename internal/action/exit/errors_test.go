@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gopasspw/gopass/internal/out"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"jamesvasile.com/go/gopass/v2/internal/out"
 )
 
 func TestError(t *testing.T) {
